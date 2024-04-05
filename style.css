@@ -35,7 +35,7 @@ p {
 }
 
 .start {
-    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
     padding: 1.2vw;
     font-size: 2.5vw;
     margin-top: 10vw;
@@ -68,20 +68,92 @@ a {
     height: 30vw;
     margin-top: 3vw;
     border-radius: 30px 30px 0 0;
+    padding: 2vw;
+    font-size: 1.8vw;
 }
 
 .button {
+    padding: 1vw;
     border-radius: 0 0 30px 30px;
     border-width: 4px 0 0 0;
     border-color: black;
     border-style: solid;
     display: flex;
+    justify-content: space-between;
+    align-items:center ;
 }
 
 .上一个问题 {
     padding: 1.2vw;
     font-size: 2.5vw;
     border-radius: 30px;
-    background-color: rgba(0, 255, 255, 0.519);
-    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    border-width: 3px;
+    color: black;
+}
+
+.上一个问题:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+.下一个问题 {
+    padding: 1.2vw;
+    font-size: 2.5vw;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border-width: 3px;
+    color: black;
+}
+
+
+
+.下一个问题:hover {
+    color: white;
+    background-color: black;
+
+}
+
+
+.问题id {
+    padding: 1.2vw;
+    font-size: 2.5vw;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.问题id:hover {
+    color: white;
+    background-color: black;
+
+}
+
+
+.oszes {
+    padding: 1.2vw;
+    font-size: 2.5vw;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.oszes:hover {
+    color: white;
+    background-color: black;
+
+}
+
+
+.选择题按钮 {
+    width: 25px;
+    height: 25px;
 }
