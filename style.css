@@ -6,7 +6,6 @@
 body {
     background-color: antiquewhite;
     background-image: url("9de909fe7c137c16cfbe9890ae6ddf2e.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -56,4 +55,32 @@ a {
     color: black;
     text-decoration: none;
 
+}
+
+
+.button , .text {
+    background-color: rgba(255, 255, 255, 0.819);
+    width: 90vw;
+
+}
+
+.text {
+    height: 30vw;
+    margin-top: 3vw;
+    border-radius: 30px 30px 0 0;
+}
+
+.button {
+    border-radius: 0 0 30px 30px;
+    border-width: 4px 0 0 0;
+    border-color: black;
+    border-style: solid;
+}
+
+.上一个问题 {
+    padding: 1.2vw;
+    font-size: 2.5vw;
+    border-radius: 30px;
+    background-color: rgba(0, 255, 255, 0.519);
+    border-width: 0;
 }
