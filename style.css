@@ -75,6 +75,7 @@ a {
     border-width: 4px 0 0 0;
     border-color: black;
     border-style: solid;
+    display: flex;
 }
 
 .上一个问题 {
