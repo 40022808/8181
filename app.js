@@ -4,7 +4,7 @@ const 下一个问题 = document.getElementById("下一个问题");
 const 目前问题id= document.getElementById("目前问题id");
 const oszes = document.getElementById("oszes");
 
-var 问题数量 = 50 ;
+var 问题数量 = 60 ;
 var  问题id = 1 ;
 
 function 刷新(){
@@ -18,7 +18,7 @@ text.innerHTML = 题目库(问题id)
 function 题目库(id) {
     /* '<h2>问题《》</h2>《》<br><form id="myForm">&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="《》">&ensp;《》</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="《》">&ensp;《》</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="《》">&ensp;《》</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="《》">&ensp;《》</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="《》">&ensp;《》</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="《》">&ensp;《》</label><br></form>' */
     if (id == 1) {
-        var text1 = '<h2>问题一</h2>你觉得你穿越到异世界是死后重生到异世界，还是没死是被谁召唤到异世界的并且事后还可以回去。<br><form id="myForm">&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="1">&ensp;没死是被谁召唤到异世界的并且事后还可以回去</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="2">&ensp;死后重生到异世界</label></form>'
+        var text1 = '<h2>问题一</h2>你穿越到了一个拥有魔法的世界，但是这里的人只能学一种类型的魔法，你觉得你是那种？<br><form id="myForm">&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="2">&ensp;杂耍有趣的魔法</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="4">&ensp;能够帮助别人的魔法</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="3">&ensp;强化肉体跟别人肉搏的魔法</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="5">&ensp;拥有巨大杀伤力的魔法</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="1">&ensp;我觉得我是天命之子，什么魔法都可以</label><br>&ensp;&ensp;<label><input type="radio" class="选择题按钮" name="answer" value="6">&ensp;我会开发全新的魔法</label><br></form>'
         return text1
     }
     else if (id == 2) {
@@ -35,6 +35,12 @@ function 题目库(id) {
             问题id = 问题id + 1
             刷新()
             text.innerHTML = 题目库(问题id)
+            console.log("自信" + 自信)
+            console.log("天真" + 天真)
+            console.log("勇敢" + 勇敢)
+            console.log("善恶" + 善恶)
+            console.log("野心" + 野心)
+            console.log("智商" + 智商)
         }
     }
     
@@ -48,6 +54,12 @@ function 题目库(id) {
         问题id = 问题id - 1
         刷新()
         text.innerHTML = 题目库(问题id)
+        console.log("自信" + 自信)
+        console.log("天真" + 天真)
+        console.log("勇敢" + 勇敢)
+        console.log("善恶" + 善恶)
+        console.log("野心" + 野心)
+        console.log("智商" + 智商)
     }
 });
 
